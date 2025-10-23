@@ -29,7 +29,7 @@ RUN ./copy_cert_assets.sh || true
 RUN npm run build --if-present
 
 # Expõe a porta padrão
-EXPOSE 3000
+EXPOSE 3957
 
 # Define o entrypoint
 CMD ["./docker-entrypoint.sh"]
